@@ -4,47 +4,112 @@ body {
 }
 
 main {
-    background-color: yellowgreen;
+    background-color: cornflowerblue;
     min-height: 100vh;
+    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .mundo-super {
-    background-color: fuchsia;
     display: flex;
-    gap: 3rem;
-    padding: 5rem 0;
+    gap: 30px;
+    padding: 30px 0;
+    margin: 0 2rem;
 }
 
 .ficha-personagem {
-    background-color: aqua;
-    box-shadow: rgba(100, 100, 111, 3.0) 0px 2rem 3rem 0px;
-    border-radius: 20rem;
+    display: none;
+    box-shadow: rgba(100, 100, 111, 3.0) 0px 7px 29px 0px;
+    border-radius: 20px;
+    max-width: 400px;
 }
 
 .ficha-personagem .ficha-topo {
-    background-color: greenyellow;
-    padding: 3rem 2rem 0;
+    padding: 30px 0 0;
+    text-align: center;
 }
 
 .ficha-personagem .nome {
-    margin-bottom: 1rem;
+    margin-bottom: 30px;
     color: #fff;
-    display: flex;
-    align-items: center;
 }
 
 .ficha-personagem .ficha-imagem {
-    background-color: royalblue;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
 }
 
 .ficha-imagem img {
     max-height: 100%;
-    text-align: center;
 }
 
-.ficha-personagem .
+.ficha-personagem .ficha-infos {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: start;
+}
+
+.ficha-personagem .ficha-infos h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #858585;
+}
+
+.ficha-infos .perfil, .ficha-infos .poderes {
+    padding: 0 10px;
+    width: auto;
+}
+
+.ficha-infos .perfil {
+    width: 30%;
+}
+
+.perfil ul li, .poderes ul li {
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.ficha-personagem.aberto {
+    display: block;
+}
+
+.mario {
+    background: #6e1417;
+}
+
+.luigi {
+    background: #3c5311;
+}
+
+.peach {
+    background: #eec0c8;
+}
+
+.toad {
+    background: #21B6A8;
+}
+
+.donkey-kong {
+    background: #ac735c;
+}
+
+.yoshi {
+    background: #B1D8B7;
+}
+
+.wario {
+    background: #705e2c;
+}
+
+.bowser {
+    background: #55316e;
+}
