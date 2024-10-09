@@ -1,7 +1,6 @@
 body {
     font-size: 62.5%;
     font-family: 'Archivo', sans-serif;
-    min-height: 90vh;
     max-width: 1280px;
     display: flex;
     flex-direction: column;
@@ -24,10 +23,11 @@ body {
 
 main {
     display: flex;
+    min-height: 87vh;
     justify-content: center;
     align-items: center;
     background: url(../imagens/super-mario-bg.jpg) no-repeat center bottom #269aff;
-    background-size: 1280px;
+    background-size: 1100px;
 }
 
 .mundo-super {
@@ -177,4 +177,18 @@ main {
 
 .lista-personagens .item.ativo {
     background-color: #dda21e;
+}
+
+.rodape {
+    background-color: #9f5d00;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape .direitos {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #daefff;
 }
