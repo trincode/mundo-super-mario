@@ -1,28 +1,41 @@
 body {
     font-size: 62.5%;
     font-family: 'Archivo', sans-serif;
+    min-height: 90vh;
+    max-width: 1280px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
 }
 
-main {
-    background-color: #0060b8;
-    min-height: 100vh;
+.cabecalho {
+    background-color: #269aff;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1280px;
-    background: url(../imagens/super-mario-bg.png) no-repeat center bottom #0060b8;
+    padding: 20px 0 0px;
+}
+
+.cabecalho img {
+    max-height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/super-mario-bg.jpg) no-repeat center bottom #269aff;
     background-size: 1280px;
 }
 
 .mundo-super {
     display: flex;
     gap: 30px;
-    padding: 30px 0;
-    margin: 2rem;
+    padding: 10px 0 30px;
+    margin: 10px 10px 30px 2rem;
 }
-
 
 .ficha-personagem {
     display: none;
