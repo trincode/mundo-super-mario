@@ -1,22 +1,25 @@
 body {
     font-size: 62.5%;
     font-family: 'Archivo', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 main {
-    background-color: cornflowerblue;
+    background-color: #E4E4E6;
     min-height: 100vh;
-    max-width: 1280px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1280px;
 }
 
 .mundo-super {
     display: flex;
     gap: 30px;
     padding: 30px 0;
-    margin: 0 2rem;
+    margin: 2rem;
+    /* background-color: blue; */
 }
 
 .ficha-personagem {
@@ -34,6 +37,7 @@ main {
 .ficha-personagem .nome {
     margin-bottom: 30px;
     color: #fff;
+    font-size: 2rem;
 }
 
 .ficha-personagem .ficha-imagem {
@@ -112,4 +116,51 @@ main {
 
 .bowser {
     background: #55316e;
+}
+
+.lista-personagens {
+    max-width: 200px;
+    min-width: 153px;
+}
+
+.lista-personagens .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #757573;
+    color: #ffffff;
+    padding: 0 12px;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 10px 10px 0px;
+    min-height: 78px;
+    transition: 0.15s ease-in-out;
+}
+
+.lista-personagens .item:hover {
+    transform: scale(1.1, 1.1);
+    transform-origin: center right;
+}
+
+.lista-personagens .item img {
+    width: 56px;
+    border-radius: 50%;
+}
+
+.lista-personagens .item span {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.lista-personagens .item:nth-child(5) span {
+    /* margin-left: 24px; */
+    /* margin: 0 0 0 auto; */
+    text-align: right;
+}
+
+.lista-personagens .item.ativo {
+    background-color: #6AABD2;
 }
