@@ -1,6 +1,6 @@
 @media(max-width: 646px) {
     main {
-        background-size: 800px;
+        background-size: 900px;
     }
 
     .mundo-super {
@@ -51,7 +51,7 @@
 
 @media(max-width: 530px) {
     main {
-        background-size: 700px;
+        background-size: 800px;
     }
 
     .mundo-super {
