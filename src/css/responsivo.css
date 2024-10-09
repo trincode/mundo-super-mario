@@ -1,4 +1,8 @@
 @media(max-width: 646px) {
+    main {
+        background-size: 800px;
+    }
+
     .mundo-super {
         flex-direction: column;
         justify-content: center;
@@ -50,6 +54,7 @@
 @media(max-width: 530px) {
     main {
         max-width: max-content;
+        background-size: 600px;
     }
 
     .mundo-super {
@@ -118,6 +123,10 @@
 }
 
 @media(max-width: 430px) {
+    main {
+        background-size: 500px;
+    }
+
     .mundo-super {
         flex-direction: column;
         justify-content: center;
