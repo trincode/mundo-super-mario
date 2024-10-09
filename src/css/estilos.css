@@ -143,8 +143,8 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-    background-color: #757573;
-    color: #ffffff;
+    background-color: #daefff;
+    color: #270a01;
     padding: 0 12px;
     cursor: pointer;
     border-top-left-radius: 40px;
@@ -157,6 +157,7 @@ main {
 .lista-personagens .item:hover {
     transform: scale(1.1, 1.1);
     transform-origin: center right;
+    background-color: #edba46;
 }
 
 .lista-personagens .item img {
@@ -175,5 +176,5 @@ main {
 }
 
 .lista-personagens .item.ativo {
-    background-color: #6AABD2;
+    background-color: #dda21e;
 }
