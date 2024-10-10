@@ -10,7 +10,7 @@ Dando continuidade aos estudos de HTML e CSS, agora fiz um projeto inspirado no 
 
 ### 🖼️ Aparência
 
-<img src="./src/design/site-overview-1.png" width="550"><img src="./src/design/site-overview-2.gif" width="233">
+<img src="./src/design/site-overview-1.png" width="550"> <img src="./src/design/site-overview-2.gif" width="235">
 
 ### 🖇️ Links
 
